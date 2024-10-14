@@ -1,0 +1,20 @@
+{
+  "name": "drive-integration",
+  "version": "1.0.0",
+  "description": "integrate with google drive for file uploading",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "delete": "npx tsc && node dist/delete-index.js"
+  },
+  "author": "siddhesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@googleapis/drive": "^8.11.0",
+    "dotenv": "^16.4.5"
+  }
+}
