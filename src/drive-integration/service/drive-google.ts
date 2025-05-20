@@ -160,7 +160,7 @@ export class DriveGoogle {
                     mimeType: 'application/vnd.pdf', //'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                     body: this.getStreamForBuffer(reportBuffer.fileBuffer),
                 },
-                fields: 'id,name',
+                fields: '*',
                 supportsAllDrives: true
             });
 

@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "npx tsc && node dist/index.js",
-    "delete": "npx tsc && node dist/delete-index.js"
+    "delete": "npx tsc && node dist/delete-index.js",
+    "crud": "npx tsc && node dist/__tests__/scenario-testing/crudFiles.runner.js"
   },
   "author": "siddhesh",
   "license": "ISC",

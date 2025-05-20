@@ -43,7 +43,6 @@ const main = async () => {
         const folderIdRet = await driveGoogle.getFolderIdForPath(parentFolderId, folderPath, true, '0AFh0qtImfLo2Uk9PVA');
         console.log(folderIdRet);
 
-
         const folderPathForDelete = 'testing-paths/deleting-folder';
         const folderIdRetDel = await driveGoogle.getFolderIdForPath(parentFolderId, folderPathForDelete, true, '0AFh0qtImfLo2Uk9PVA');
         console.log(folderIdRetDel);
